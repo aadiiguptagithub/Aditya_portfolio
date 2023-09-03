@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: rgb(191, 181, 181);
+    width: 174px;
+    font-family: ' fira sans', sans-serif;
+    height: 100vh;
+}
+.sidebar nav {
+    padding: 20px;
+}
+.sidebar nav li {
+    list-style: none;
+    font-size: 27px;
+    padding: 27px 0;
+}
+.main {
+    /* background-color: yellow; */
+    width: 84vw;
+    height: 45vw;
+}
+.infoContainer {
+    /* background-color: rgb(223, 82, 176); */
+    height: 58vh;
+    width: 73vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devPic img {
+    height: 58vh;
+    margin: -76px 0px;
+}
+.divInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.ab{
+    padding: 26px 0px;
+}
+.p {
+    font-family: 'Source Code Pro', monospace;
+}
+.bb{
+    padding: 9px 0px;
+}
+.skillcontainer {
+    padding: 12px;
+}
+.skillitem {
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
